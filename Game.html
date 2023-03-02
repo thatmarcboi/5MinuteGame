@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Incremental Game</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+	<div class="outer-container">
+		<div class="container">
+			<h1>I Made This Incremental Game In 5 minutes</h1>
+			<p>Click the button to earn points</p>
+			<button id="clicker" onclick="addPoints()">Click Me!</button>
+			<p id="points">Points: 0</p>
+			<p>Cost: <span id="autoClickerCost">10</span> points</p>
+			<button id="buyAutoClicker" onclick="buyAutoClicker()">Buy Auto Clicker</button>
+			<p>Auto Clickers: <span id="autoClickers">0</span></p>
+			<p>Upgrade Cost: <span id="upgradeCost">50</span> points</p>
+			<button id="buyUpgrade" onclick="buyUpgrade()">Buy Upgrade</button>
+			<p>Upgrade Multiplier: <span id="upgradeMultiplier">1</span></p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>

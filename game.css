@@ -1,0 +1,35 @@
+body {
+    background-color: #424549;
+    font-family: Consolas, monospace;
+    font-size: 16px;
+    color: 	#424549;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
